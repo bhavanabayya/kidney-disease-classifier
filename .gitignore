@@ -1,0 +1,21 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+*.code-workspace
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Data
+data/processed/**
+!data/processed/.gitkeep
+
+# DVC cache (if local)
+.dvc/cache/
+
+# Logs / runs
+mlruns/
